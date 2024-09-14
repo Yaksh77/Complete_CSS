@@ -1,0 +1,27 @@
+/* The individual tags styles the html file */
+/* Type Selectors are not recommanded way */
+/* In this we use tag name as selector to style indvidual content in html  */
+h1 {
+  color: green;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+p {
+  color: blueviolet;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+}
+ul {
+  color: blueviolet;
+  list-style: armenian;
+  align-items: center;
+}
+li {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}

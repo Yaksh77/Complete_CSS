@@ -1,0 +1,67 @@
+#header {
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#name {
+  font-size: 1.7em;
+}
+#about {
+  background-color: rgb(247, 151, 247);
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#about-title {
+  color: rgb(252, 2, 127);
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+#about-data {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 25;
+}
+#project {
+  background-color: rgb(247, 151, 247);
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#project-title {
+  color: rgb(252, 2, 127);
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+#project-1 {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 25;
+}
+#project-2 {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 25;
+}
+#footer {
+  background-color: rgb(247, 151, 247);
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#contact {
+  color: rgb(252, 2, 127);
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+#email {
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 25;
+}

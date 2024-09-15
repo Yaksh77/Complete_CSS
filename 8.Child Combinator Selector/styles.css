@@ -1,0 +1,31 @@
+#departments {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+#departments > .department {
+  background-color: rgb(92, 59, 18);
+  border: 2px solid violet;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+#departments > .department > h2 {
+  font-style: italic;
+  color: cadetblue;
+  border-bottom: 1px solid black;
+}
+#departments > .department > .cource {
+  margin-left: 5px;
+  color: blanchedalmond;
+}
+.department > .faculty {
+  margin-left: 5px;
+  color: blanchedalmond;
+  border: 2px solid violet;
+  padding: 15px;
+}
+.faculty > p {
+  border-bottom: 1px solid black;
+}

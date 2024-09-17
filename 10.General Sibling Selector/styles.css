@@ -1,0 +1,37 @@
+body {
+  background-color: #f2f3f4;
+  font-family: "Times New Roman", Times, serif;
+}
+#recipes {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+}
+.recipe {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: darkgray;
+}
+.recipe h2 {
+  font-size: 1.8em;
+  font-style: italic;
+  color: #216186;
+  margin-bottom: 15px;
+}
+.ingredients {
+  background-color: #f5cb87;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* General Sibling Selector */
+/* In this all the tips classes that are comes under the ingrideint class are styled */
+.ingredients ~ .tips {
+  background-color: #f5cb87;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

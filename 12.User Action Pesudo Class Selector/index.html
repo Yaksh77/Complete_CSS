@@ -1,0 +1,37 @@
+<!-- ! This class is used to style individual elements when user interacts with the form elements -->
+<!-- * States : 1.:hover
+     *          2.:active
+     *          3.:focus (means Targets element on receiving focus (clicked)) -->
+<!-- It is used for form handeling -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>User Action Pesudo Class Selector</title>
+  </head>
+  <body>
+    <div id="signup-box">
+      <h2>Stay Updated!</h2>
+      <p>Subscribe to our newsletter for the latest updates and offers.</p>
+      <form action="/submit" method="post">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Yaksh" required />
+        </div>
+        <div class="input-group">
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="yaksh847@gmail.com"
+            required
+          />
+        </div>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </body>
+</html>

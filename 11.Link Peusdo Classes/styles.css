@@ -1,0 +1,45 @@
+body {
+  background-color: aliceblue;
+}
+#blog {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f8f9f9;
+  box-shadow: 10px 0px 12px chocolate;
+}
+.related-articles {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.related-articles ul {
+  list-style: none;
+}
+.related-articles li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+/* Use of link pesudo selector */
+.related-articles a:link {
+  color: brown;
+  text-decoration: none;
+}
+.related-articles a:visited {
+  color: red;
+}
+.related-articles a:hover {
+  color: darkblue;
+  background-color: darkgray;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px;
+  text-decoration-line: underline;
+  transition-delay: 100ms;
+}
+.related-articles a:active {
+  color: black;
+}

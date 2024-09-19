@@ -1,0 +1,39 @@
+<!-- Type Pesudo Classes are used to style elements by their tag type -->
+<!-- Target elements based on their nature and tag -->
+<!-- Types: 1. :is() (matches any of the given selector)
+            2. :not() (Matches elements not matching given selector)
+            3. :where() (Like :is() but not affect specificity)-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Type Pesudo Classes</title>
+  </head>
+  <body>
+    <article id="blog-post">
+      <h1 class="special">The Importance of Web Accessbility</h1>
+      <div class="author">Written by Sarah williams</div>
+      <div class="special author">Guest Author: Yaksh Chudasama</div>
+      <p class="intro">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+        perferendis, possimus sapiente laborum
+      </p>
+      <p class="special">This paragaraph is special.</p>
+      <p></p>
+      <!-- ! Empty paragraph -->
+      <div>Another content box.</div>
+      <img src="./motion_picture_poster.png" alt="Motion Picture" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+        voluptate quibusdam.
+      </p>
+      <div class="tags">
+        <span>Accessbility</span>
+        <span class="special">Special Tag</span>
+        <span>User Experience</span>
+      </div>
+    </article>
+  </body>
+</html>

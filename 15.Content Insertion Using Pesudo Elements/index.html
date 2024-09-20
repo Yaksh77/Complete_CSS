@@ -1,0 +1,60 @@
+<!-- * It is used to style the specific content of any html element -->
+
+<!-- * It is generally used with content of the html element -->
+
+<!-- ! Types :    1. ::before (Insert content before actual content)
+       !         2. ::after (Insert content after actual content)
+------------------------------------------------------------------------------- 
+       !        3. ::first-letter (Styles first letter of text block)
+         !       4. ::first-line(Styles first line of text block)
+           !      5. ::selection (Styles selected part of user's text)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Content Isertion Using Pesudo Elements</title>
+  </head>
+  <body>
+    <div id="recipe-card">
+      <h2 class="title">Motion Picture</h2>
+      <div class="image">
+        <img
+          src="./motion_picture_poster.png"
+          alt="Motion Picture"
+          width="100%"
+        />
+      </div>
+      <div class="time-container">
+        <span class="time">Prep time: 10min</span>
+        <span class="time">cook time: 10min</span>
+
+        <ul class="ingredients">
+          <h3>Ingredients</h3>
+          <li>Flour</li>
+          <li>Sugar</li>
+          <li>Eggs</li>
+          <li>Milk</li>
+        </ul>
+      </div>
+      <div class="steps-container">
+        <h3>Instructions:</h3>
+        <p class="steps">
+          1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="steps">
+          1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="steps">
+          1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <p class="note">
+        Tip: Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+        natus.
+      </p>
+    </div>
+  </body>
+</html>

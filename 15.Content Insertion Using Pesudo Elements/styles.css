@@ -1,0 +1,56 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f7eee5;
+  margin: 0;
+  padding: 20px;
+}
+#recipe-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1s);
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: #704214;
+  margin-bottom: 20px;
+}
+.image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+/* This will add content before the title*/
+.title::before {
+  content: "Nature ";
+  border-bottom: 1px solid black;
+}
+/* This will add content after the title*/
+.title::after {
+  content: " Nature ";
+  border-bottom: 1px solid black;
+}
+/* This will add content before the tip*/
+.note::before {
+  content: "Mark ";
+  font-weight: bold;
+}
+/* This will add content after the tip*/
+.note::after {
+  content: " Mark";
+  font-weight: bold;
+}
+.note {
+  background-color: rgb(50, 132, 204);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+/* This will add content or change the bullets of the lists */
+.ingredients li::marker {
+  content: "1 ";
+}

@@ -1,0 +1,32 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: whitesmoke;
+}
+#recipe-container {
+  background-color: #ffffff;
+  width: 900px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0px 5px 10px;
+}
+.title {
+  font-size: 2em;
+  color: chocolate;
+}
+p,
+ul,
+ol {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+::selection {
+  background-color: lavender;
+}
+::-moz-selection {
+  background-color: lavender;
+}
+::webkit-selection {
+  background-color: lavender;
+}

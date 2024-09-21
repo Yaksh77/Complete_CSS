@@ -1,0 +1,42 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #fafafa;
+  margin: 0;
+}
+#container {
+  width: 100%;
+}
+.headline {
+  font-size: 2.5em;
+  text-align: center;
+  background-color: #f1e5d6;
+  padding: 20px;
+}
+.side-content {
+  float: right;
+  width: 30%;
+  background-color: #d4ccc5;
+  padding: 10px;
+}
+#coffee-article {
+  width: 68%;
+  padding: 10px;
+}
+
+.headline::first-letter {
+  color: brown;
+  font-size: 3em;
+}
+.intro p::first-line {
+  color: brown;
+  font-weight: bold;
+}
+.intro p::first-letter {
+  font-size: 3em;
+}
+.side-content::first-letter {
+  font-size: 3em;
+}
+.content::first-line {
+  background-color: yellow;
+}

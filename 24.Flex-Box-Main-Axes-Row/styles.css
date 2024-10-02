@@ -1,0 +1,20 @@
+.container {
+  background-color: blue;
+  /* By default the direction of the flex box is "row" */
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}
+.item:nth-child(even) {
+  background-color: brown;
+}
+.item:nth-child(odd) {
+  background-color: blueviolet;
+}

@@ -1,0 +1,37 @@
+/* .container {
+  background-color: blue;
+   /* By default the direction of the flex box is "row"  */
+/* height: 500px;
+  display: flex;
+  flex-direction: row; */
+/* This will affect the main axis  */
+/* justify-content: center; 
+ This affects the cross axis 
+ align-items: center; 
+ flex-wrap: wrap; 
+  }    */
+
+.container {
+  background-color: blue;
+  /* By default the direction of the flex box is "row" */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}
+.item:nth-child(even) {
+  background-color: lightsalmon;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}

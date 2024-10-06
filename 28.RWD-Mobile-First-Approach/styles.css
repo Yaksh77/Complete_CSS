@@ -1,0 +1,47 @@
+/* body {
+  background-color: brown;
+} */
+.header {
+  background-color: brown;
+  height: 100vh;
+}
+p {
+  color: red;
+  font-size: 3em;
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: blue;
+  }
+  p {
+    color: black;
+    font-size: 5em;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: green;
+  }
+  p {
+    color: burlywood;
+    font-size: 7em;
+  }
+}
+@media (min-width: 1280px) {
+  .header {
+    background-color: purple;
+  }
+  p {
+    color: blue;
+    font-size: 5em;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    background-color: cadetblue;
+  }
+  p {
+    color: chartreuse;
+    font-size: 10em;
+  }
+}

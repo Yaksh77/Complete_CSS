@@ -1,0 +1,40 @@
+/* Default styles for large desktops */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: blue;
+  font-size: 30px;
+  height: 100px;
+  color: white;
+  padding: 20px;
+}
+/* Styles for small desktops */
+/* @media (max-width: 1439px) {
+  .header {
+    background-color: darkgoldenrod;
+  }
+} */
+/* The another way to write the @media Query */
+@media screen and (max-width: 1439px) {
+  .header {
+    background-color: darkgoldenrod;
+  }
+}
+
+@media (max-width: 1279px) {
+  .header {
+    background-color: brown;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    background-color: blueviolet;
+  }
+}
+@media (max-width: 374px) {
+  .header {
+    background-color: yellowgreen;
+  }
+}
